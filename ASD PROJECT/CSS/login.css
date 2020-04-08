@@ -1,0 +1,119 @@
+.responsive {
+    width:20%;
+    max-width: 400px;
+    height: auto;
+    box-shadow:2px 3px 2px #d47e7e;
+  }
+
+ body {
+    background: linear-gradient(45deg,#372d99, #209467);
+    background-size: cover;
+    background-attachment:fixed;  
+    background-repeat: no-repeat;
+    color: ivory;
+    font-family: 'Open Sans', sans-serif;
+    font-size:1vw;
+}
+
+.div1 {
+background-color: rgba(0, 0, 0, 0.35);
+margin: auto;
+width: 25%;
+color:white;
+margin-top: 150px;
+font-size: 1.5em;
+font-family: 'Open Sans', sans-serif;
+padding:45px;
+border:4px dashed ghostwhite;
+border-radius: 20px 60px;
+overflow:hidden;
+text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 600px) {
+    .p1 {
+      font-size: 20px;
+    }
+  }
+  @media screen and (min-width: 601px) {
+    .p1 {
+      font-size: 25px;
+    }
+  }
+.margin1 {
+  margin: 0 auto;
+}
+
+.but1{
+  text-align: center;
+  display: inline-block;
+  padding: 10px;
+  font-size:1.15em;
+  background:linear-gradient(to left, mediumseagreen, cornflowerblue);
+  text-decoration: none;
+  color:white;
+  border:none;
+
+  width:49%;
+
+
+}
+.but1:hover{
+  opacity: 70%;
+}
+.but1:active{
+  transform: translateY(4px);
+}
+
+.form input {
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.but2{
+  text-align: center;
+  display: inline-block;
+  padding: 10px;
+  font-size:1.15em;
+  background:linear-gradient(to left, rgb(170, 44, 195), rgb(94, 96, 216));
+  text-decoration: none;
+  color:white;
+  border:none;
+
+  width:70%; 
+}
+
+.but2:hover{
+  opacity: 70%;
+}
+
+.but2:active{
+  transform: translateY(4px);
+}
+
+.but3{
+  text-align: center;
+  display: inline-block;
+  padding: 10px;
+  font-size:1.15em;
+  background:linear-gradient(to left, rgb(170, 44, 195), rgb(94, 96, 216));
+  text-decoration: none;
+  color:white;
+  border:none;
+
+  width:30%; 
+}
+
+.but3:hover{
+  opacity: 70%;
+}
+
+.but3:active{
+  transform: translateY(4px);
+}

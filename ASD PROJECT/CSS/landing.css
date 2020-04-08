@@ -40,15 +40,16 @@ body {
     width:35%;
     max-width: 400px;
     height: auto;
+    box-shadow:2px 3px 2px #d47e7e;
   }
 
   @media screen and (max-width: 600px) {
-    p {
+    .p1 {
       font-size: 20px;
     }
   }
   @media screen and (min-width: 601px) {
-    p {
+    .p1 {
       font-size: 30px;
     }
   }
