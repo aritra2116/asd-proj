@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Images//favicon-16x16.png">
+    <link rel ="stylesheet" type = "text/css" href="/CSS/inchargeentry.css">
+    <title>Enter hospital details</title>
+</head>
+<body>
+    <p style="text-align: center;"><img src="Images/5e4be2e3-9088-43e7-850b-bfd85334da82.jpg" alt="MedLogo" style="width: 300px; margin: auto; text-align: center; box-shadow: 0 0 25px #000;"/></p> 
+    <br><br>
+    <div style="position: relative; top: 15vw;">
+        <form class="form1 form box">
+            <p><h2>Enter your current updated hospital details</h2></p>
+            <label for="status">Choose bed availability status : </label>
+            <select id="status" required>
+            <option value="status1">Active</option>
+            <option value="status2">Inactive</option>   
+            </select><br><br>
+            <label for="num">Enter no of beds (enter only if status is Active) : </label>
+            <input type="input" name="num" id="num"  placeholder="No. of beds" maxlength="5"><br>
+            <label for="ambserv">Add an ambulance service : </label>
+            <input type="input" name="ambserv" id="ambserv"  placeholder="Enter ambulance service" maxlength="30"><br>
+            <br><br>
+            <label for="review">Enter your valuable feedback :</label>
+            <textarea id="review" rows="5" cols="35" style="resize:none">
+            Feedback
+            </textarea><br><br>
+            <button type="submit" class="but1">Enter</button>
+            <p></p>
+
+
+        </form>
+    </div>
+</body>
+</html>
